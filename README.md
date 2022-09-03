@@ -16,3 +16,6 @@ Clone the repository using the commands below
 
 ## Step 4
 To ensure that it worked, try opening the project with Unity Hub
+
+## Step 5
+Add something to this file just to make sure you did it right (Hello World!).
