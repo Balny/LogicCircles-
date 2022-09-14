@@ -15,12 +15,13 @@ public class DirectionalNodes : MonoBehaviour
     {
         sr = GetComponent<SpriteRenderer>();
         sr.sprite = def;
+        SwitchSprite();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        SwitchSprite();
     }
 
     void SwitchSprite()
