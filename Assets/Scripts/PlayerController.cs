@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed;
-    public DirectionalNodes dn;
     void Start()
     {
         
@@ -19,7 +18,10 @@ public class PlayerController : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log(other.gameObject.name);
+        DirectionalNodes dn = other.GetComponent<DirectionalNodes>();
+        Debug.Log(dn.current);
         transform.Rotate(Vector3.back * 90); //back rotates right and foward rotates left
-        Debug.Log("hit");
+
     }
 }
