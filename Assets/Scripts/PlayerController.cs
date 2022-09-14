@@ -5,9 +5,13 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed;
+    public bool right;
     void Start()
     {
-        
+        if (!right)
+        {
+            transform.Rotate(Vector3.back * 180);
+        }
     }
 
     // Update is called once per frame
