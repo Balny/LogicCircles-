@@ -621,7 +621,7 @@ MonoBehaviour:
   def: {fileID: 21300000, guid: 816869171782be04d967a358de859fb9, type: 3}
   left: {fileID: 21300000, guid: 72212b0eef4012747b731adc0d8f3e94, type: 3}
   right: {fileID: 21300000, guid: ca0f23aa92e7eec468635a05f0b0a099, type: 3}
-  current: left
+  current: right
 --- !u!1 &209284510
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,7 +829,7 @@ MonoBehaviour:
   def: {fileID: 21300000, guid: 816869171782be04d967a358de859fb9, type: 3}
   left: {fileID: 21300000, guid: 72212b0eef4012747b731adc0d8f3e94, type: 3}
   right: {fileID: 21300000, guid: ca0f23aa92e7eec468635a05f0b0a099, type: 3}
-  current: 
+  current: right
 --- !u!1 &479773759
 GameObject:
   m_ObjectHideFlags: 0
@@ -955,7 +955,7 @@ MonoBehaviour:
   def: {fileID: 21300000, guid: 816869171782be04d967a358de859fb9, type: 3}
   left: {fileID: 21300000, guid: 72212b0eef4012747b731adc0d8f3e94, type: 3}
   right: {fileID: 21300000, guid: ca0f23aa92e7eec468635a05f0b0a099, type: 3}
-  current: left
+  current: right
 --- !u!1 &499821788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1410,7 +1410,7 @@ MonoBehaviour:
   def: {fileID: 21300000, guid: 816869171782be04d967a358de859fb9, type: 3}
   left: {fileID: 21300000, guid: 72212b0eef4012747b731adc0d8f3e94, type: 3}
   right: {fileID: 21300000, guid: ca0f23aa92e7eec468635a05f0b0a099, type: 3}
-  current: 
+  current: right
 --- !u!1 &648380632
 GameObject:
   m_ObjectHideFlags: 0
@@ -1690,7 +1690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.01
-  right: 0
+  right: 1
 --- !u!212 &796377909
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3013,7 +3013,7 @@ MonoBehaviour:
   def: {fileID: 21300000, guid: 816869171782be04d967a358de859fb9, type: 3}
   left: {fileID: 21300000, guid: 72212b0eef4012747b731adc0d8f3e94, type: 3}
   right: {fileID: 21300000, guid: ca0f23aa92e7eec468635a05f0b0a099, type: 3}
-  current: right
+  current: none
 --- !u!1 &1311742800
 GameObject:
   m_ObjectHideFlags: 0
@@ -3959,7 +3959,7 @@ MonoBehaviour:
   def: {fileID: 21300000, guid: 816869171782be04d967a358de859fb9, type: 3}
   left: {fileID: 21300000, guid: 72212b0eef4012747b731adc0d8f3e94, type: 3}
   right: {fileID: 21300000, guid: ca0f23aa92e7eec468635a05f0b0a099, type: 3}
-  current: right
+  current: left
 --- !u!1 &1649391967
 GameObject:
   m_ObjectHideFlags: 0
@@ -5031,7 +5031,7 @@ MonoBehaviour:
   def: {fileID: 21300000, guid: 816869171782be04d967a358de859fb9, type: 3}
   left: {fileID: 21300000, guid: 72212b0eef4012747b731adc0d8f3e94, type: 3}
   right: {fileID: 21300000, guid: ca0f23aa92e7eec468635a05f0b0a099, type: 3}
-  current: 
+  current: right
 --- !u!1 &2111360357
 GameObject:
   m_ObjectHideFlags: 0
